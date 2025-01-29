@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardSoldComponent {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    background-color: #baffb7;
+    border: 2px solid forestgreen;
+    padding: 50px;
+    margin: 50px;
+    color: forestgreen;
+}
+
+.dashboardSoldComponent p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.dashboardBoughtComponent {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7d1ff;
+    border: 2px solid cornflowerblue;
+    padding: 50px;
+    margin: 50px;
+    color: cornflowerblue;
+}
+
+.dashboardBoughtComponent p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.dashboardLeftComponent {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc1c1;
+    border: 2px solid indianred;
+    padding: 50px;
+    margin: 50px;
+    color: indianred;
+}
+
+.dashboardLeftComponent p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.productComponent {
+    display: flex;
+    flex-direction: row;
+    border: 2px dotted grey;
+    background-color: lightgray;
+    padding: 50px;
+    margin: 50px;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.productDetails h2 {
+    font-size: 25px;
+    text-align: start;
+    margin: 10px auto;
+}
+
+.productDetails h3 {
+    font-size: 35px;
+    margin: 10px auto;
+    text-align: start;
+}
+
+.productDetails p {
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.productComponent img {
+    width: 600px;
+}
+
+.tvSpecs {
+    margin: 10px auto;
+}
+
+.tvSpecs img {
+    width: 20px;
+    margin: 0 10px;
+}
+
+button {
+    margin: 0 5px;
+}
