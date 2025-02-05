@@ -1,130 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%
-}
-
-h1 {
-    font-size: 30px;
-    text-align: center;
-    margin: 50px 0;
-}
-
-h2 {
-    font-size: 20px;
-    text-align: center;
-    margin: 30px 0;
+.page-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 32px;
 }
 
 .dashboard {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.dashboardSoldComponent {
+.dashboardComponent {
     display: flex;
     flex-direction: column;
     width: 33%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 16px;
+}
+
+.total-sold {
     background-color: #baffb7;
     border: 2px solid forestgreen;
-    padding: 50px;
-    margin: 50px;
     color: forestgreen;
 }
 
-.dashboardSoldComponent p {
-    font-size: 20px;
-    margin: 20px;
-}
-
-.dashboardBoughtComponent {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    justify-content: center;
-    align-items: center;
+.total-bought {
     background-color: #c7d1ff;
     border: 2px solid cornflowerblue;
-    padding: 50px;
-    margin: 50px;
     color: cornflowerblue;
 }
 
-.dashboardBoughtComponent p {
-    font-size: 20px;
-    margin: 20px;
-}
-
-.dashboardLeftComponent {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    justify-content: center;
-    align-items: center;
+.total-left {
     background-color: #ffc1c1;
     border: 2px solid indianred;
-    padding: 50px;
-    margin: 50px;
     color: indianred;
-}
-
-.dashboardLeftComponent p {
-    font-size: 20px;
-    margin: 20px;
 }
 
 .productComponent {
     display: flex;
     flex-direction: row;
-    border: 2px dotted grey;
+    padding: 15px 30px;
+    margin: 8px 0;
+    max-width: 800px;
+    gap: 30px;
+    align-items: center;
+    border: 2px solid grey;
     background-color: lightgray;
-    padding: 50px;
-    margin: 50px;
+}
+
+.productComponent img {
+    width: 200px;
 }
 
 .productDetails {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 0 10px;
 }
 
 .productDetails h2 {
     font-size: 25px;
-    text-align: start;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 
 .productDetails h3 {
     font-size: 35px;
-    margin: 10px auto;
-    text-align: start;
+    margin: 10px 0;
 }
 
 .productDetails p {
     font-size: 15px;
-    margin: 10px auto;
-}
-
-.productComponent img {
-    width: 600px;
+    margin: 10px 0;
 }
 
 .tvSpecs {
-    margin: 10px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 10px 0;
 }
 
 .tvSpecs img {
     width: 10px;
-    margin: 0 10px;
+    margin-right: 5px;
+}
+
+.sortingButtons {
+    margin: 20px 0;
 }
 
 button {
     margin: 0 5px;
+}
+
+.allTvsList {
+    padding: 20px 0;
 }
